@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Messages | Firebase</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Fitness Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#classes">Classes</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" style="background-image: url('https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2875&q=80');
+    background-size: cover;
+    background-position: center;">
+        <div class="hero">
+            <h2 style="color: rgb(20, 1, 1);">Your Journey to a Healthier You Begins Here</h2>
+            <a href="#classes" class="cta-button">View Classes</a>
+        </div>
+    </section>
+
+    <section id="about"style="background-image: url('https://images.unsplash.com/photo-1605296867724-fa87a8ef53fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80');
+    background-size: 400px;
+    background-position: center;">
+        <div class="about-content">
+            <h2 style="color: white;">About Us</h2>
+            <p style="color: yellow;">"Unlock Your Potential, Embrace Your Strength.
+
+                At Fitness Hub, we believe that within every one of us lies a powerhouse of untapped potential waiting to be unleashed. It's not just about the weights you lift or the miles you run; it's about the journey of self-discovery, the transformation of body and mind, and the relentless pursuit of your best self.
+                
+                Join us on this extraordinary voyage towards a healthier, stronger, and more vibrant you. Our world-class trainers and cutting-edge facilities are here to empower you every step of the way. Whether you're a seasoned athlete or taking your first fitness steps, you belong here.
+                
+                Together, we'll conquer challenges, shatter limitations, and sculpt the masterpiece that is your body. Together, we'll rise to new heights, one rep at a time.
+                
+                Don't wait for the right moment; create it. Your fitness journey starts now.Are you ready to redefine your limits?"</p>
+        </div>
+    </section>
+
+    <section id="classes">
+        <div class="class-card">
+            <img src="https://images.unsplash.com/photo-1627457487655-32c21e2e4ba2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2767&q=80" alt="Yoga Class">
+            <h3>Yoga Classes</h3>
+            <p>Join our yoga classes and find inner peace.</p>
+        </div>
+        <div class="class-card">
+            <img src="https://images.unsplash.com/photo-1601422407692-ec4eeec1d9b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2825&q=80" alt="Crossfit Class">
+            <h3>Crossfit Classes</h3>
+            <p>Get fit and strong with our intense Crossfit workouts.</p>
+        </div>
+        <div class="class-card">
+            <img src="https://i0.wp.com/www.wahoofitness.com/blog/wp-content/uploads/2020/08/Wahoo-Le-Col57366-3.jpg?fit=1200%2C900&ssl=1" alt="Spin Class">
+            <h3>Spin Classes</h3>
+            <p>Join our high-energy spin classes and burn calories.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="" id="contactForm">
+                <div class="alert">Your message sent</div>
+    
+                <div class="inputBox">
+                    <input type="text" id="name" placeholder="Your name...." />
+                </div>
+    
+                <div class="inputBox">
+                    <input type="email" id="emailid" placeholder="Your Email....." />
+                </div>
+    
+                <div class="inputBox">
+                    <textarea id="msgContent" cols="30" rows="10" placeholder="Message"></textarea>
+                </div>
+    
+                <div class="inputBox">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Fitness Hub</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./mail.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./mail.js"></script>
+</body>
+
+
+</html>
